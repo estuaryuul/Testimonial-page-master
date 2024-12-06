@@ -12,56 +12,77 @@
     />
 
     <title>Testimonial Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- 
-  ⭐️
-
-  Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.
-  
-  Checklist to Review an Academic Paper
-  
-  Peer Review Checklist
-  
-  Checklist for Editors, Reviewers, and Authors of SPIE Journals
-  
-  Samantha Lee
-  
-  The checklist ensures that the review process is thorough
-  
-  Rachel Patel
-  
-  I highly recommend the Writecream Business Description -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+    <main>
+      <div class="row-left">
+        <div id="star-icon">
+          <p>⭐️</p>
+        </div>
+        <header id="header">
+          <h1>Reviewers</h1>
+        </header>
+        <div class="content">
+          <p>
+            Reviewers is where people can access guidelines, checklists, and
+            other tools to assist them in reviewing papers or manuscripts. It
+            provides a structured approach to ensure that the review process is
+            thorough, efficient, and consistent.
+          </p>
+          <ul>
+            <li>
+              <p>Checklist to Review an Academic Paper</p>
+            </li>
+            <li>
+              <p>Peer Review Checklist</p>
+            </li>
+            <li>
+              <p>
+                Checklist for Editors, Reviewers, and Authors of SPIE Journals
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row-right">
+        <div class="card card-1">
+          <div class="card-header">
+            <img src="./resources/google-png.png" alt="google-png" />
+            <div class="stars-container">
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="./resources/Star_fill_gray.svg" alt="Star_fill_gray" />
+            </div>
+          </div>
+          <div class="card-name">
+            <h2>Samantha Lee</h2>
+          </div>
+          <div class="card-content content">
+            <p>The checklist ensures that the review process is thorough</p>
+          </div>
+        </div>
+        <div class="card card-2">
+          <div class="card-header">
+            <img src="./resources/meta-png.png" alt="meta-png" />
+            <div class="stars-container">
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+              <img src="/resources/Star_fill.svg" alt="star-fill" />
+            </div>
+          </div>
+          <div class="card-name">
+            <h2>Rachel Patel</h2>
+          </div>
+          <div class="card-content content">
+            <p>I highly recommend the Writecream Business Description</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
